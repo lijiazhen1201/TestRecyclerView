@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="添加" />
+    <item
+        android:id="@+id/action_remove"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="移除" />
+    <item
+        android:id="@+id/action_shu_listview"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="竖直ListView" />
+
+    <item
+        android:id="@+id/action_heng_listview"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="横向ListView" />
+
+    <item
+        android:id="@+id/action_shu_gridview"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="竖直GridView" />
+
+    <item
+        android:id="@+id/action_heng_girdview"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="横向GridView" />
+
+    <item
+        android:id="@+id/action_pubuliu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="瀑布流" />
+
+
+</menu>
